@@ -42,5 +42,5 @@ jobs:
             context: .
             file: ./Dockerfile
             push: true
-            tags: jseluis/${{secrets.DOCKERHUB_REPO}}
+            tags: ${{secrets.DOCKER_USERNAME}}/${{secrets.DOCKERHUB_REPO}}
 
