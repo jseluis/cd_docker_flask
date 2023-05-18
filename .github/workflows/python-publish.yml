@@ -14,7 +14,7 @@ jobs:
             python-version: [3.9]
        steps:
         - uses: actions/checkout@master
-        - name: Initialize Python 3.9
+        - name: Initialize Python3.9
           uses: actions/setup-python@v3
           with:
             python-version: ${{matrix.python-version}}
