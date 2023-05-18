@@ -3,8 +3,6 @@ name: Python Package
 on:
     push:
       branches: [ main ]
-      
-
 jobs:
     deploy:
        runs-on: ubuntu-latest
@@ -15,7 +13,7 @@ jobs:
        steps:
         - name: Checkout
           uses: actions/checkout@v3
-        - name: Initialize Python3.9
+        - name: Initialize Python 3.9
           uses: actions/setup-python@v3
           with:
             python-version: ${{matrix.python-version}}
