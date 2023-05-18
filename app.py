@@ -19,12 +19,11 @@ data = {
 
 @app.route("/")
 def index():
-        return "Quick CD Test."
+    return "Quick CD Test."
 
-@app.route('/software')
-def get_software():
+@app.route('/soft')
+def get_soft():
     return data
-
 
 if __name__ == "__main__":
     app.debug = True
