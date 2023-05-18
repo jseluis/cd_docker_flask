@@ -2,7 +2,7 @@ name: Python Package
 
 on:
     push:
-      branches: [ master ]
+      branches: [ main ]
       
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
          matrix:
             python-version: [3.9]
        steps:
-        - uses: actions/checkout@master
+        - uses: actions/checkout@main
         - name: Initialize Python3.9
           uses: actions/setup-python@v3
           with:
