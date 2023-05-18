@@ -29,4 +29,18 @@ Quick Example of Continuous Delivery (CD) with Flask, Docker and Python
 13. Navigate to DockerHub & discover your freshly built & served image of Flask App!
 
 Instructions:
+
+1. CI/CD Pipelines
 <https://www.section.io/engineering-education/ci-cd-pipelines-with-flask-docker-and-github-actions/>
+
+2. What is Infrastructure as Code?
+<https://www.freecodecamp.org/news/what-is-infrastructure-as-code/>
+
+3. Agile Mindset
+<https://aws.amazon.com/executive-insights/content/why-you-need-an-agile-mindset-and-how-to-get-one/?executive-insights-cards.sort-by=item.additionalFields.sortDate&executive-insights-cards.sort-order=desc>
+
+4. Implementing Microservices
+<https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html>
+
+5. Agile Manifesto
+<https://agilemanifesto.org/>
