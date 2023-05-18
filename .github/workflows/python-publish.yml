@@ -13,7 +13,8 @@ jobs:
          matrix:
             python-version: [3.9]
        steps:
-        - uses: actions/checkout@main
+        - name: Checkout
+          uses: actions/checkout@v3
         - name: Initialize Python3.9
           uses: actions/setup-python@v3
           with:
